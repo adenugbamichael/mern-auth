@@ -63,6 +63,8 @@ const LoginScreen = () => {
           Sign In
         </Button>
 
+        {isLoading && <h2>Loading...</h2>}
+
         <Row className='py-3'>
           <Col>
             New Customer? <Link to='/register'>Register</Link>
