@@ -1,6 +1,6 @@
-import express from "express"
 import dotenv from "dotenv"
 import userRoutes from "./routes/userRoutes.js"
+import express from "express"
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js"
 import connectDB from "./config/db.js"
 import cookieParser from "cookie-parser"
